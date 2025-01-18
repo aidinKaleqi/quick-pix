@@ -1,0 +1,22 @@
+{
+  "name": "wsa-image-proccess",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "serve": "wasm-pack build && webpack serve --mode=development",
+    "build": "wasm-pack build && webpack --mode=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wasm-tool/wasm-pack-plugin": "^1.7.0",
+    "assert": "^2.1.0",
+    "browserify-fs": "^1.0.0",
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}

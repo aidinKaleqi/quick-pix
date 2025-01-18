@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quick Pix Editor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="context">
+    <div class="box">
+        <form>
+            <div class="title">
+                <h1>Transform Your Photos Fast</h1>
+            </div>
+            <p class="link-text">A smarter way to enhance your pictures — just upload and see!</p>
+            <img id="new-img" src="./Placeholder.png" alt="">
+
+            <div class="input-box">
+                <input type="file" id="upload" accept=".png" hidden/>
+
+                <div id="button-container">
+                    <div id="upload_label">
+                        <label for="upload" class="Login">Upload PNG Image</label>
+                    </div>
+                    <button id="download_label" class="Login">Download</button>
+                </div>
+
+                <div class="action-btn-container">
+                    <div class="btn">
+                        <a href="#" id="grayscale-btn">Gray Scale</a>
+                    </div>
+                    <div class="btn">
+                        <a href="#" id="reset-btn">Reset</a>
+                    </div>
+                    <div class="btn">
+                        <a href="#" id="blur-btn">Blur</a>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>
+
+<div class="bg-area">
+    <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</div>
+
+
+<script src="./main.js"></script>
+
+</body>
+</html>
